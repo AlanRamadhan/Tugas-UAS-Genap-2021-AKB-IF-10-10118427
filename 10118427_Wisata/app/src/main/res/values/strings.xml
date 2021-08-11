@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">10118427_Wisata</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="waktubuka">Waktu Buka</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="submit">Map</string>
+    <string name="wisata">Wisata</string>
+    <string name="contact">Contact</string>
+    <string name="profile">Profile</string>
+    <string name="alan ramadhan">Alan Ramadhan</string>
+    <string name="if_10">IF-10</string>
+    <string name="description">Description</string>
+    <string name="saya_adalah_mahasiswa_universitas_komputer_indonesia_jurusan_teknik_informatika">Saya adalah mahasiswa Universitas Komputer Indonesia jurusan Teknik Informatika</string>
+
+</resources>
