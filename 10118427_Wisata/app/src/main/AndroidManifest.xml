@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.10118427_Wisata">
-        <activity android:name=".View.DetailActivity"></activity>
+        <activity android:name=".View.ProfileActivity"></activity>
+        <activity android:name=".View.MapActivity" />
+        <activity android:name=".View.ListTourPlaceActivity" />
+        <activity android:name=".View.DetailActivity" />
         <activity android:name=".View.ContactActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

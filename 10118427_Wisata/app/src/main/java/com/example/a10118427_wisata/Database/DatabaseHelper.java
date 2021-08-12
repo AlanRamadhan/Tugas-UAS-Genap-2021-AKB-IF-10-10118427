@@ -6,6 +6,16 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.NamaTabel;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.alamat;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.deskripsi;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.foto;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.id;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.lang;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.leng;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.nama;
+import static com.example.a10118427_wisata.Database.DatabaseHelper.MyColumns.waktubuka;
+
 /** NIM : 10118427
  * Nama : Alan Ramadhan
  * Kelas : IF-10
@@ -56,7 +66,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public DatabaseHelper(Context context) {
-        super(context, NamaDatabse, null, VersiDatabase);
+        super(context, NamaDatabase, null, VersiDatabase);
     }
 
     @Override

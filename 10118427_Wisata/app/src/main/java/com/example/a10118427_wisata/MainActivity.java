@@ -1,18 +1,20 @@
 package com.example.a10118427_wisata;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.Toast;
-
 import com.example.a10118427_wisata.Database.DatabaseHelper;
 import com.example.a10118427_wisata.View.ContactActivity;
+import com.example.a10118427_wisata.View.ListTourPlaceActivity;
+import com.example.a10118427_wisata.View.PagerActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 /** NIM : 10118427
@@ -64,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.contact:
                             selectedFragment = new ContactActivity();
                             break;
-                        case R.id.profile:
-                            selectedFragment = new ProfileActivity();
+                        case R.id.pager:
+                            selectedFragment = new PagerActivity();
                             break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
