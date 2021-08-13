@@ -21,7 +21,7 @@ public class ListInsert {
                 "Farmhouse Lembang bisa dikatakan salah satu tempat wisata di Bandung terbaru. " +
                         "Tempat ini langsung menyedot banyak pengunjung karena lokasinya yang strategis, " +
                         "dan banyaknya spot berfoto yang bagus banget.",
-                "https://www.anekawisata.com/wp-content/uploads/2018/04/Farm-House-Lembang-Bandung.jpg",
+                "@drawable/wisata1.jpg",
                 "-6.833266", "107.605738"));
 
         databaseHelper.save(new TourPlace(2, "Kebun Teh Sukawana",

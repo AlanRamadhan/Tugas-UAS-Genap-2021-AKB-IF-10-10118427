@@ -4,10 +4,7 @@
         android:id="@+id/place"
         android:icon="@drawable/map"
         android:title="@string/wisata" />
-    <item
-        android:id="@+id/contact"
-        android:icon="@drawable/contact__1_"
-        android:title="@string/contact" />
+
     <item
         android:id="@+id/profile"
         android:icon="@drawable/user"

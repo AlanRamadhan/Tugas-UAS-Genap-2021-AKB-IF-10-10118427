@@ -12,9 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.example.a10118427_wisata.Database.DatabaseHelper;
-import com.example.a10118427_wisata.View.ContactActivity;
 import com.example.a10118427_wisata.View.ListTourPlaceActivity;
-import com.example.a10118427_wisata.View.PagerActivity;
+import com.example.a10118427_wisata.View.ProfileActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 /** NIM : 10118427
@@ -63,11 +62,8 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.place:
                             selectedFragment = new ListTourPlaceActivity();
                             break;
-                        case R.id.contact:
-                            selectedFragment = new ContactActivity();
-                            break;
-                        case R.id.pager:
-                            selectedFragment = new PagerActivity();
+                        case R.id.profile:
+                            selectedFragment = new ProfileActivity();
                             break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,

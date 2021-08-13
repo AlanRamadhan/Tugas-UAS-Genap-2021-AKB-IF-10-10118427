@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.4"
-        android:background="@drawable/unikom"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -29,6 +28,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/alan_ramadhan" />
+
+        <TextView
+            style="@style/TextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="10118427" />
     </LinearLayout>
 
     <LinearLayout
@@ -114,6 +120,45 @@
                     android:text="Saya adalah mahasiswa Universitas Komputer Indonesia Jurusan Teknik Informatika" />
 
             </LinearLayout>
+
+
+
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFF"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:padding="4dp"
+                android:src="@drawable/gmail" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextBlackTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="Gmail" />
+
+                <TextView
+                    style="@style/TextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:text="alan.10118427@mahasiswa.unikom.ac.id" />
+
+            </LinearLayout>
     </LinearLayout>
+</LinearLayout>
 </LinearLayout>
