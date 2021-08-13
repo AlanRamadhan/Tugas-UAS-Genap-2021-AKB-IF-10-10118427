@@ -1,11 +1,5 @@
 package com.example.a10118427_wisata.View;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -13,6 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.a10118427_wisata.Database.AdapterTourPlace;
 import com.example.a10118427_wisata.Database.MapHelper;
@@ -23,6 +22,11 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+
+/** NIM : 10118427
+ * Nama : Alan Ramadhan
+ * Kelas : IF-10
+ * Tanggal : 09-08-2021 - 13-08-2021**/
 
 public class ListTourPlaceActivity  extends Fragment implements LoadTourPlaceCallback{
 

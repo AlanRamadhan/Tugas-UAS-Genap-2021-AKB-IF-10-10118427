@@ -13,6 +13,11 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+/** NIM : 10118427
+ * Nama : Alan Ramadhan
+ * Kelas : IF-10
+ * Tanggal : 09-08-2021 - 13-08-2021**/
+
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     GoogleMap map;
