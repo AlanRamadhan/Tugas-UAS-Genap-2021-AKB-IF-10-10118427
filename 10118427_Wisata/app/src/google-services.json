@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "246719491967",
+    "firebase_url": "https://wisata-384f7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "wisata-384f7",
+    "storage_bucket": "wisata-384f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246719491967:android:957d13f1334da02a35b44a",
+        "android_client_info": {
+          "package_name": "com.example.a10118427_wisata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246719491967-2ekb5gjmrmddm92m2mv5t72qnlmr3tqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtS0hMO5mKfQFgh4kGMVe9OE-EwV6qS94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246719491967-2ekb5gjmrmddm92m2mv5t72qnlmr3tqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

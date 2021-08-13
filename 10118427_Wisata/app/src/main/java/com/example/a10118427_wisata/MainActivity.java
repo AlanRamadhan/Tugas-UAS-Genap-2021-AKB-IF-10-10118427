@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.example.a10118427_wisata.Database.DatabaseHelper;
+import com.example.a10118427_wisata.View.InformasiFragment;
 import com.example.a10118427_wisata.View.ListTourPlaceActivity;
 import com.example.a10118427_wisata.View.ProfileActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -64,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
                             break;
                         case R.id.profile:
                             selectedFragment = new ProfileActivity();
+                            break;
+                        case R.id.informasi:
+                            selectedFragment = new InformasiFragment();
                             break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,

@@ -13,5 +13,7 @@
     <string name="informasi">Informasi</string>
     <string name="description">Description</string>
     <string name="saya_adalah_mahasiswa_universitas_komputer_indonesia_jurusan_teknik_informatika">Saya adalah mahasiswa Universitas Komputer Indonesia jurusan Teknik Informatika</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
